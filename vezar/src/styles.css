@@ -1,0 +1,354 @@
+/* You can add global styles to this file, and also import other style files */
+/* Code Paul Irish  */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+/* Menu */
+.Nav{
+    margin: 0;
+    background-color: #343A40;
+    height: 100vh;
+}
+.fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+img{
+    width: 100%;
+}
+.white{
+    color: #ffffff;
+}
+svg, .nameCode, .vistas>a>h4, #headerCliente>div>h1>span:hover, .pedidoCocinaTable:hover{
+    cursor: pointer;
+}
+#vista{
+    margin-top: 5em;
+}
+a{
+    text-decoration: none;
+}
+.vistas>a>h4:hover,.none{
+    color: #343A40;
+    background-color: #ffffff;
+}
+.admin>svg{
+    cursor: text;
+}
+#divImagen, #divImagenModal{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 70px;
+    height: 70px;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: aqua;
+    border-radius: 1em;
+}
+.p-6{
+    padding-left: 6em;
+}
+.txtImagen{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+.imgMatriz{
+    height: 2em;
+    width: 2em;
+}
+.headerPlantilla{
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 2em;
+}
+.producto{
+    width: 12em;
+    border: #343A40 solid;
+    background-color: #ffffff;
+    padding: 1em;
+    border-radius: 1em;
+    margin: 1em;
+    text-align: center;
+}
+.producto>img{
+    border-radius: 1em;
+    width: 5em;
+    height: 5em;
+}
+.producto>p{
+    margin-top: .5em;
+    font-size: 1.5em;
+    word-break: break-word;
+}
+.producto>h1{
+    margin: 0;
+}
+.logo{
+    margin-left: 2em;
+    width: 3.5em;
+    cursor: pointer;
+}
+.text-right{
+    text-align: right;
+}
+#headerCliente{
+    color: #eaa41c;
+}
+.c-verde{
+    color: #000000;
+}
+.Nav-2{
+    background-color: #eaa41c;
+}
+.fixed-2{
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    background-color: #ffffff;
+}
+.mt-8{
+    margin-top: 5em;
+}
+.mt-7{
+    margin-top: 2.5em;
+    font-size: 2.7em;
+}
+.menu{
+    position: relative;
+}
+.submenu{
+    position: absolute;
+    top: 0;
+    left: 100%;
+}
+ul{
+    padding: 0;
+    list-style: none;
+}
+.pr-2{
+    padding-right: 2em;
+    font-size: 1.3em;
+}
+li{
+    position: relative;
+}
+li ul{
+    display: none;
+    position: absolute;
+    top: 0;
+    padding-left: 1em;
+    padding-right: 1em;
+    left: 107%;
+    background-color: #eaa41c;
+}
+li:hover> ul{
+    display: block;
+}
+#menuDesplegable{
+    display: none;
+    z-index: 5;
+
+}
+#hero{
+    display: block;
+}
+.fixed-3{
+    position: fixed;
+    top: 1;
+    z-index: 2;
+}
+li>ul>li{
+    white-space: nowrap; /* Thanks to Herb Caudill comment */
+}
+.plato>img{
+    width: 10em;
+    height: 6em;
+    border-radius: 1em;
+}
+.plato>h2{
+    color: rgba(0, 0, 0, 0.925);
+}
+#tablePedidos input, .plato input[type=number]{
+    width: 3em;
+}
+.text-left{
+    text-align: left;
+}
+.text-justify{
+    text-align: justify;
+}
+.btn-verde{
+    color: #000000;
+    background-color: #ffc107;
+    border-radius: 1em;
+}
+.c-red{
+    color: #A60606;
+    font-size: .8em;
+}
+#vaciar{
+    margin-right: 1em;
+}
+.bg-verde{
+    background-color: #d6503a;
+    color: #ffffff;
+}
+.font-size-1{
+    font-size: 1em;
+}
+#tablePedidos tr {
+    vertical-align: baseline;
+}
+.contenedor {
+    width: 600px;
+    height: 600px;
+    position: relative;
+}
+.rectangle-1 {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: rgba(161, 202, 0, 0.6);
+    border: 4px solid #A1CA00;
+}
+.rectangle-2 {
+    position: relative;
+    width: 400px;
+    height: 100px;
+    background-image: url(assets/img/bgLogin-2.png);
+    margin: 0;
+    z-index: 1;
+}
+.elipse-1{
+    margin: 0;
+    position: absolute;
+    top: -20%;
+    width: 12em;
+    height: 12em;
+    border: 4px solid #A1CA00;
+    background-image: url(assets/img/bgLogin-2.png);
+    border-radius: 8em;
+}
+.elipse-2{
+    margin: 0;
+    position: absolute;
+    left: 31%;
+    top: 40%;
+    width: 10em;
+    height: 10em;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-items: baseline;
+    align-self: center;
+    align-self: baseline;
+    border: 4px solid #A1CA00;
+    background-image: url(assets/img/logo.jpg);
+    background-size: cover;
+    border-radius: 8em;
+    z-index: 2;
+}
+input.username{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+a.username{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    background-color: #A60606;
+    border: 1px solid #A60606;
+}
+input.password{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+a.password{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    background-color: #A60606;
+    border: 1px solid #A60606;
+}
+#inciarSesion{
+    background-color: #A60606;
+    border: 1px solid #A60606;
+    border-radius: 1em;
+    font-size: 1.15em;
+}
+.rectangle-adjust{
+    height: 450px;
+}
+.elipse-adjust{
+    top: 30%;
+}
+
+.scanner-laser {
+    position: absolute;
+    margin: 20px 30px;
+    height: 30px;
+    width: 30px;
+    opacity: 0.5;
+}
+
+.laser-leftTop {
+    top: 0;
+    left: 0;
+    border-top: solid red 5px;
+    border-left: solid red 5px;
+}
+
+.laser-leftBottom {
+    bottom: 0;
+    left: 0;
+    border-bottom: solid red 5px;
+    border-left: solid red 5px;
+}
+
+.laser-rightTop {
+    top: 0;
+    right: 0;
+    border-top: solid red 5px;
+    border-right: solid red 5px;
+}
+
+.laser-rightBottom {
+    bottom: 0;
+    right: 0;
+    border-bottom: solid red 5px;
+    border-right: solid red 5px;
+}
+#lectorQR:hover,#iniciarSesionTxt{
+    cursor: pointer;
+}
+.img-2{
+    border-radius: 1em;
+    margin-top: .5em;
+    height: 8rem;
+}
+.img-border-radius{
+    border-radius: 1rem;
+    margin-left: .5rem;
+}
+@media (max-width: 825px) {
+    li ul{
+        left: 110%;
+    }
+}
+.fullHeight {
+ 
+    position: absolute;
+    top: 0;
+    bottom: 0;
+ 
+}
