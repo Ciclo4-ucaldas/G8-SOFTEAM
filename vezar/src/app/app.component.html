@@ -1,0 +1,67 @@
+<router-outlet></router-outlet>
+<div class="container-fluid" id="modal">
+    <form id="frmLogin">
+    <input type="text" id="nombreUser" name="nombreUser" hidden>
+    <input type="text" id="apellidoUser" name="apellidoUser" hidden>
+    <div class="row">
+        <div class="col-3"></div>
+        <div class="col-6 mt-3">
+            <div class="contenedor mt-3">
+                <div class="row">
+                    <div class="col-2"></div>
+                    <div class="col-8">
+                        <div class="rectangle-2">
+                            <div class="row">
+                                <div class="col-3"></div>
+                                <div class="col-6">
+                                    <div class="elipse-2"></div>
+                                </div>
+                                <div class="col-3"></div>
+                            </div>
+                        </div>
+                        <div class="rectangle-1">
+                            <div class="row">
+                                <div class="col-3"></div>
+                                <div class="col-6">
+                                    <div class="elipse-1"></div>
+                                </div>
+                                <div class="col-3"></div>
+                            </div>
+                            <div class="mt-8 col-12">
+                                <div class="row">
+                                    <div class="col-2"></div>
+                                    <div class="col-8 mt-8">
+                                        <div class="row justify-content-center mb-1">
+                                            <a class="btn btn-primary w-auto username"><i class="fas fa-user"></i></a>
+                                            <input type="text" class="form-control w-auto username" placeholder="Username" id="username" name="username">
+                                        </div>
+                                        <div class="row justify-content-center mb-1">
+                                            <a class="btn btn-primary w-auto password"><i class="fas fa-key"></i></a>
+                                            <input type="password" class="form-control w-auto password" placeholder="Password" id="password" name="password">
+                                        </div>
+                                        <div class="row justify-content-center mb-2">
+                                            <select name="idRol" id="selectRol" class="form-control w-auto">
+                                                <option value="0" disabled selected>Seleccione</option>
+                                            </select>
+                                        </div>
+                                        <div class="row justify-content-center mb-2">
+                                            <input type="button" class="form-control btn-warning white w-75" id="inciarSesion" value="Iniciar Sesion">
+                                        </div>
+                                        <div class="text-center mb-1">
+                                            <span id="lectorQR">Lector QR</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-2"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2"></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-3"></div>
+    </div>
+</form>
+</div>
+<script src="assets/js/login.js"></script>
